@@ -1,4 +1,4 @@
 .DS_Store
 # IDEs and editors
 .idea/
-Dev/OpenAIKey.py
+Dev/Setting.py
