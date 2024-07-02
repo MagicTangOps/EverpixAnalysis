@@ -40,7 +40,7 @@ def OpenAICall(messages, model, temperature):
     res = conn.getresponse()
     data = eval(res.read().decode("utf-8"))
 
-    return data['choices'][0]['message']['content']
+    return data
 
 if __name__=='__main__':
     # system_prompt = "You are a helpful assistant."
