@@ -2,3 +2,11 @@
 # IDEs and editors
 .idea/
 Dev/Setting.py
+
+# 忽略所有以 xxx 开头的文件
+neostore*
+index*
+checkpoint*
+database*
+*.bin
+*.sqlite3
