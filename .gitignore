@@ -10,3 +10,5 @@ checkpoint*
 database*
 *.bin
 *.sqlite3
+raptor_pack/
+plugins/
